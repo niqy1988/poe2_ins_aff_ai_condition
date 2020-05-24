@@ -1,0 +1,65 @@
+attribute:
+  might:
+    - tier: 2+
+      name: Dazed/Stunned
+      identifier_uuid:
+        - 1a271eb6-d086-47a5-8b88-e471e2dec92c  # Dazed_SE_PenetrationDebuff
+        - 45537b43-aa00-4ee7-8f70-84f60a6b1d65  # Stunned_SE_Stunned
+    - tier: 3
+      name: Stunned
+      identifier_uuid:
+        - 45537b43-aa00-4ee7-8f70-84f60a6b1d65  # Stunned_SE_Stunned
+  con:
+    - tier: 2+
+      name: Weakened/Enfeebled
+      identifier_uuid:
+        - 35e1c111-6504-429f-b163-882911ffeb24  # Weakened_SE_NoHealing
+        - a0f11546-031c-43eb-ab20-c898bc861045  # Enfeebled_SE_NoHealing
+    - tier: 3
+      name: Enfeebled
+      identifier_uuid:
+        - 4d42a36d-26bc-4fd0-8256-77f0accadf9e  # Enfeebled_SE_HostileEffectDuration
+  dex:
+    - tier: 2+
+      name: Immobilized/Paralyzed
+      identifier_uuid:
+        - acb85834-6da9-4f01-a637-77e33d8bca02  # Immobilized_SE_CannotMove
+        - e07a73fa-2445-4ea1-b906-1b8437771bb1  # Paralyzed_SE_Paralyzed
+    - tier: 3
+      name: Paralyzed
+      identifier_uuid:
+        - e07a73fa-2445-4ea1-b906-1b8437771bb1  # Paralyzed_SE_Paralyzed
+  per:
+    - tier: 2+
+      name: Disoriented/Blinded
+      identifier_uuid:
+        - 8d3a8e85-2ba2-4759-b9f0-f62739ef67f4  # Disoriented_SE_RecoveryDebuff
+        - 280e6095-101b-43fd-ab82-197fd81630b5  # Blinded_SE_RecoveryDebuff
+    - tier: 3
+      name: Blinded
+      identifier_uuid:
+        - 5d21ee2b-4ba6-4af4-bcc9-4ff15a01181c  # Blinded_SE_RangePenalty
+  int:
+    - tier: 2+
+      name: Charmed/Dominated
+      identifier_uuid:
+        - cf852c4e-1e12-460b-9aa3-89449da6945d  # Charmed_SE_TakeControl
+        - 6eee8a79-c54b-4366-9335-e2f04fc665b4  # Dominated_SE_TakeControl
+    - tier: 3
+      name: Dominated
+      identifier_uuid:
+        - 6eee8a79-c54b-4366-9335-e2f04fc665b4  # Dominated_SE_TakeControl
+  res:
+    - tier: 2+
+      name: Frightened/Terrified
+      identifier_uuid:
+        - 05d2691a-1be9-49dd-bbeb-f40f39b8b909  # Frightened_SE_DisableHostileAbilities
+        - b7079b28-c54a-4bac-be4d-de92ac5f5b1c  # Terrified_SE_Terrified
+    - tier: 3
+      name: Terrified
+      identifier_uuid:
+        - b7079b28-c54a-4bac-be4d-de92ac5f5b1c  # Terrified_SE_Terrified
+
+suspension:
+  description: Hostile Effects Suspended
+  effect_type: SuspendHostileEffects
