@@ -1,0 +1,12 @@
+{
+  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+  "Data": {
+    "FullName": "Boolean HasStatusEffect(Guid, Guid)",
+    "Parameters": [
+      "",
+      ""
+    ]
+  },
+  "Not": false,
+  "Operator": 1
+}

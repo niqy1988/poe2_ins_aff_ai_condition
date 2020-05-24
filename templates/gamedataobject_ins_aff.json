@@ -1,0 +1,18 @@
+{
+  "$type": "Game.GameData.CustomAIConditionalScriptSetGameData, Assembly-CSharp",
+  "DebugName": "",
+  "ID": "",
+  "Components": [
+    {
+      "$type": "Game.GameData.CustomAIConditionalScriptSetComponent, Assembly-CSharp",
+      "DisplayName": 0,
+      "ConditionalScripts": {
+        "Operator": 0,
+        "Components": [
+        ]
+      },
+      "AIConditionalType": "General",
+      "AIConditionalCategoryID": ""
+    }
+  ]
+}
