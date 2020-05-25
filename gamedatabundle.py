@@ -35,23 +35,23 @@ class GameDataBundle:
 
     def insert_ins_aff(self,
                        debug_name: str,
-                       display_name_index: int,
+                       display_name_id: int,
                        subject_uuid: str,
-                       status_uuids: List[str],
+                       effect_uuids: List[str],
                        category_uuid: str):
 
         # create new gamedataobject
         gamedataobject = copy.deepcopy(self.gamedataobject_template)
         gamedataobject['DebugName'] = debug_name
         gamedataobject['ID'] = get_uuid(debug_name)
-        gamedataobject['Components'][0]['DisplayName'] = display_name_index
+        gamedataobject['Components'][0]['DisplayName'] = display_name_id
         gamedataobject['Components'][0]['AIConditionalCategoryID'] = category_uuid
 
         # insert identifier_uuid checks
-        for status_uuid in status_uuids:
+        for se_uuid in effect_uuids:
             conditional_component = copy.deepcopy(self.conditional_component_template)
             conditional_component['Data']['Parameters'] = [
-                subject_uuid, status_uuid
+                subject_uuid, se_uuid
             ]
             gamedataobject['Components'][0]['ConditionalScripts']['Components'].append(
                 conditional_component
