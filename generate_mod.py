@@ -8,9 +8,9 @@ from stringtable import StringTable
 configs = {}
 with open('config/general.yaml') as general_config_file:
     configs['general'] = yaml.safe_load(general_config_file)
-with open('configs/inspiration.yaml') as inspiration_config_file:
+with open('config/inspiration.yaml') as inspiration_config_file:
     configs['inspiration'] = yaml.load(inspiration_config_file, Loader=yaml.BaseLoader)
-with open('configs/affliction.yaml') as affliction_config_file:
+with open('config/affliction.yaml') as affliction_config_file:
     configs['affliction'] = yaml.load(affliction_config_file, Loader=yaml.BaseLoader)
 
 
