@@ -2,6 +2,7 @@ import uuid
 import xml
 import json
 import yaml
+from stringtable import StringTable
 
 # load all config files
 configs = {}
@@ -28,3 +29,11 @@ print('{0}.{1}'.format(
 print(get_uuid('abv'))
 print(get_uuid('abb'))
 print(get_uuid('abb'))
+print(get_uuid('abv'))
+
+a = StringTable('game\customai', 17301)
+print(a.insert_entry('some text'))
+print(a.insert_entry('some other texts'))
+print(a.insert_entry('a third entry'))
+
+a.write('output/output.xml')
