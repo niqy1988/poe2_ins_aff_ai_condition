@@ -4,16 +4,14 @@ stringtable_name: game\customai
 uuid_namespace_prefix: mod.poe2.ins_aff_ai_condition
 
 system_uuid:
-  self:
-    param_id: 7d150000-0000-0000-0000-000000000000
-    category:
-      inspiration:  dbc2d43d-af6a-4c5d-acfa-b8c81f4314c9
-      affliction:   34e839f7-43f5-4c28-9195-5008a35a1996
-  target:
-    param_id: 1a26e100-0000-0000-0000-000000000000
-    category:
-      inspiration:  dc38eda0-239a-494b-a19f-e303cd045450
-      affliction:   4d90d75c-640f-4519-baa5-b8bf38eb18c2
+  condition_subject:
+    self:   7d150000-0000-0000-0000-000000000000
+    target: 1a26e100-0000-0000-0000-000000000000
+  condition_category:
+    self_inspiration:   dbc2d43d-af6a-4c5d-acfa-b8c81f4314c9
+    self_affliction:    34e839f7-43f5-4c28-9195-5008a35a1996
+    target_inspiration: dc38eda0-239a-494b-a19f-e303cd045450
+    target_affliction:  4d90d75c-640f-4519-baa5-b8bf38eb18c2
 
 attribute:
   might:
