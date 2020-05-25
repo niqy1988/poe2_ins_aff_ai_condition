@@ -1,0 +1,30 @@
+{
+  "$type": "Game.GameData.CustomAIConditionalScriptSetGameData, Assembly-CSharp",
+  "DebugName": "",
+  "ID": "",
+  "Components": [
+    {
+      "$type": "Game.GameData.CustomAIConditionalScriptSetComponent, Assembly-CSharp",
+      "DisplayName": 0,
+      "ConditionalScripts": {
+        "Operator": 0,
+        "Components": [
+          {
+            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+            "Data": {
+              "FullName": "Boolean HasStatusEffectType(Guid, StatusEffectType)",
+              "Parameters": [
+                "",
+                ""
+              ]
+            },
+            "Not": false,
+            "Operator": 0
+          }
+        ]
+      },
+      "AIConditionalType": "General",
+      "AIConditionalCategoryID": ""
+    }
+  ]
+}

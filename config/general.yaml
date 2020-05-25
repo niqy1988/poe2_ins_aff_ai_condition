@@ -1,0 +1,42 @@
+stringtable_start_id: 17301
+stringtable_name: game\customai
+
+uuid_namespace_prefix: mod.poe2.ins_aff_ai_condition
+
+effect_subject:
+  self:
+    description: Self
+    uuid: 7d150000-0000-0000-0000-000000000000
+  target:
+    description: Target
+    uuid: 1a26e100-0000-0000-0000-000000000000
+
+effect_type:
+  ins:
+    description: Inspiration
+  aff:
+    description: Affliction
+
+effect_category:
+  self_ins:
+    uuid: dbc2d43d-af6a-4c5d-acfa-b8c81f4314c9
+  self_aff:
+    uuid: 34e839f7-43f5-4c28-9195-5008a35a1996
+  target_ins:
+    uuid: dc38eda0-239a-494b-a19f-e303cd045450
+  target_aff:
+    uuid: 4d90d75c-640f-4519-baa5-b8bf38eb18c2
+
+attribute:
+  might:
+    description: Might
+  con:
+    description: Constitution
+  dex:
+    description: Dexterity
+  per:
+    description: Perception
+  int:
+    description: Intellect
+  res:
+    description: Resolve

@@ -1,0 +1,15 @@
+{
+  "Title": {
+    "en": "More Inspiration and Affliction Conditions"
+  },
+  "ModVersion": "0.1.0",
+  "SupportedGameVersion": {
+    "Min": "5.0.0",
+    "Max": "5.0.0"
+  },
+  "Description": {
+    "en": "Adds more detailed custom AI conditions about inspirations and afflictions."
+  },
+  "ContentType": 0,
+  "Author": "AlbertNi"
+}
