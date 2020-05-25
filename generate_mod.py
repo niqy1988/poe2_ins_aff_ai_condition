@@ -5,12 +5,12 @@ import yaml
 
 # load all config files
 configs = {}
-with open('configs/general.yaml') as general_config_file:
+with open('config/general.yaml') as general_config_file:
     configs['general'] = yaml.safe_load(general_config_file)
-with open('configs/inspirations.yaml') as inspirations_config_file:
-    configs['inspirations'] = yaml.load(inspirations_config_file, Loader=yaml.BaseLoader)
-with open('configs/afflictions.yaml') as afflictions_config_file:
-    configs['afflictions'] = yaml.load(afflictions_config_file, Loader=yaml.BaseLoader)
+with open('configs/inspiration.yaml') as inspiration_config_file:
+    configs['inspiration'] = yaml.load(inspiration_config_file, Loader=yaml.BaseLoader)
+with open('configs/affliction.yaml') as affliction_config_file:
+    configs['affliction'] = yaml.load(affliction_config_file, Loader=yaml.BaseLoader)
 
 # uuid generating function
 def get_uuid(debug_name: str) -> str:
