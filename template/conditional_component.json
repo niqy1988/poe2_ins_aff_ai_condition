@@ -3,8 +3,6 @@
   "Data": {
     "FullName": "Boolean HasStatusEffect(Guid, Guid)",
     "Parameters": [
-      "",
-      ""
     ]
   },
   "Not": false,

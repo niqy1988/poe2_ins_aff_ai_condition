@@ -1,65 +1,65 @@
-attribute:
+attribute_effect:
   might:
-    - tier: 2+
-      name: Tenacious/Energized
-      identifier_uuid:
+    - tier: 2
+      description: Tenacious/Energized
+      uuid:
         - bad2f0c9-df75-457f-88b8-01cf53f63a71  # INS_Tenacious_SE_Penetration
         - a360164c-325b-4da6-9428-d0ece2b19ad6  # INS_Energized_SE_Penetration
     - tier: 3
-      name: Energized
-      identifier_uuid:
+      description: Energized
+      uuid:
         - a0dcb8c4-217e-47d6-a03f-947cf2a87e19  # INS_Energized_SE_CriticalHitsInterrupt
   con:
-    - tier: 2+
-      name: Hardy/Robust
-      identifier_uuid:
+    - tier: 2
+      description: Hardy/Robust
+      uuid:
         - bf1d6914-8a91-451c-9616-0cbc20f851c9  # INS_Hardy_SE_ArmorRating
         - ec7d614f-e615-4ba0-9a74-fabe03ad875c  # INS_Robust_SE_ArmorRating
     - tier: 3
-      name: Robust
-      identifier_uuid:
+      description: Robust
+      uuid:
         - 10e0582a-8178-4f6e-8820-54e3e72d8930  # INS_Robust_SE_Regeneration
   dex:
-    - tier: 2+
-      name: Nimble/Swift
-      identifier_uuid:
+    - tier: 2
+      description: Nimble/Swift
+      uuid:
         - 82f1204e-98cc-4f31-bb69-3ff9b74f4010  # INS_Nimble_SE_Movement
         - 7647f7a3-ad4d-46eb-a9e5-dee6d9252455  # INS_Swift_SE_Movement
     - tier: 3
-      name: Swift
-      identifier_uuid:
+      description: Swift
+      uuid:
         - fbc44bdd-c202-48bf-b210-f24460e358d5  # INS_Swift_SE_NonEngageable
   per:
-    - tier: 2+
-      name: Aware/Intuitive
-      identifier_uuid:
+    - tier: 2
+      description: Aware/Intuitive
+      uuid:
         - 792fbaca-1b50-49bc-99d3-dd5e01bb7e01  # INS_Aware_SE_GrazeToHit
         - 47b47505-20cf-476c-aba5-1af94729839b  # INS_Intuitive_SE_GrazeToHit
     - tier: 3
-      name: Intuitive
-      identifier_uuid:
+      description: Intuitive
+      uuid:
         - ffbc528a-19ed-451c-afd3-a1772fefd47f  # INS_Intuitive_SE_HitToCrit
   int:
-    - tier: 2+
-      name: Acute/Brilliant
-      identifier_uuid:
+    - tier: 2
+      description: Acute/Brilliant
+      uuid:
         - f0491457-ce17-4986-991d-3942f90f26b4  # INS_Acute_SE_PowerLevel
         - 290e8f53-7bd5-4b7a-adf1-b050eb6ae198  # INS_Brilliant_SE_PowerLevel
     - tier: 3
-      name: Brilliant
-      identifier_uuid:
+      description: Brilliant
+      uuid:
         - 600e15a1-2db9-45f7-9584-c98d8a9aeff8  # INS_Brilliant_SE_AddResources
   res:
-    - tier: 2+
-      name: Resolute/Courageous
-      identifier_uuid:
+    - tier: 2
+      description: Resolute/Courageous
+      uuid:
         - 78fcd35c-3ace-4ee7-be63-27a57a8b6956  # INS_Resolute_SE_ApplyOnTick
         - 5661849b-e072-4bd3-a769-2516bce85e52  # INS_Courageous_SE_ApplyOnTick
     - tier: 3
-      name: Courageous
-      identifier_uuid:
+      description: Courageous
+      uuid:
         - 5661849b-e072-4bd3-a769-2516bce85e52  # INS_Courageous_SE_ApplyOnTick
 
-suspension:
+suspension_effect:
   description: Beneficial Effects Suspended
-  effect_type: SuspendBeneficialEffects
+  type: SuspendBeneficialEffects

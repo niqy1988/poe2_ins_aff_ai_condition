@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<StringTableFile>
+	<Name>game\customai</Name>
+	<Entries>
+	<Entry>
+    <ID>17301</ID>
+	<DefaultText>Self: Has Inspiration - Might T2 (Tenacious/Energized)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17302</ID>
+	<DefaultText>Self: Has Inspiration - Might T3 (Energized)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17303</ID>
+	<DefaultText>Self: Has Inspiration - Constitution T2 (Hardy/Robust)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17304</ID>
+	<DefaultText>Self: Has Inspiration - Constitution T3 (Robust)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17305</ID>
+	<DefaultText>Self: Has Inspiration - Dexterity T2 (Nimble/Swift)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17306</ID>
+	<DefaultText>Self: Has Inspiration - Dexterity T3 (Swift)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17307</ID>
+	<DefaultText>Self: Has Inspiration - Perception T2 (Aware/Intuitive)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17308</ID>
+	<DefaultText>Self: Has Inspiration - Perception T3 (Intuitive)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17309</ID>
+	<DefaultText>Self: Has Inspiration - Intellect T2 (Acute/Brilliant)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17310</ID>
+	<DefaultText>Self: Has Inspiration - Intellect T3 (Brilliant)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17311</ID>
+	<DefaultText>Self: Has Inspiration - Resolve T2 (Resolute/Courageous)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17312</ID>
+	<DefaultText>Self: Has Inspiration - Resolve T3 (Courageous)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17313</ID>
+	<DefaultText>Self: Has Affliction - Might T2 (Dazed/Stunned)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17314</ID>
+	<DefaultText>Self: Has Affliction - Might T3 (Stunned)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17315</ID>
+	<DefaultText>Self: Has Affliction - Constitution T2 (Weakened/Enfeebled)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17316</ID>
+	<DefaultText>Self: Has Affliction - Constitution T3 (Enfeebled)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17317</ID>
+	<DefaultText>Self: Has Affliction - Dexterity T2 (Immobilized/Paralyzed)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17318</ID>
+	<DefaultText>Self: Has Affliction - Dexterity T3 (Paralyzed)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17319</ID>
+	<DefaultText>Self: Has Affliction - Perception T2 (Disoriented/Blinded)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17320</ID>
+	<DefaultText>Self: Has Affliction - Perception T3 (Blinded)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17321</ID>
+	<DefaultText>Self: Has Affliction - Intellect T2 (Charmed/Dominated)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17322</ID>
+	<DefaultText>Self: Has Affliction - Intellect T3 (Dominated)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17323</ID>
+	<DefaultText>Self: Has Affliction - Resolve T2 (Frightened/Terrified)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17324</ID>
+	<DefaultText>Self: Has Affliction - Resolve T3 (Terrified)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17325</ID>
+	<DefaultText>Target: Has Inspiration - Might T2 (Tenacious/Energized)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17326</ID>
+	<DefaultText>Target: Has Inspiration - Might T3 (Energized)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17327</ID>
+	<DefaultText>Target: Has Inspiration - Constitution T2 (Hardy/Robust)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17328</ID>
+	<DefaultText>Target: Has Inspiration - Constitution T3 (Robust)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17329</ID>
+	<DefaultText>Target: Has Inspiration - Dexterity T2 (Nimble/Swift)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17330</ID>
+	<DefaultText>Target: Has Inspiration - Dexterity T3 (Swift)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17331</ID>
+	<DefaultText>Target: Has Inspiration - Perception T2 (Aware/Intuitive)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17332</ID>
+	<DefaultText>Target: Has Inspiration - Perception T3 (Intuitive)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17333</ID>
+	<DefaultText>Target: Has Inspiration - Intellect T2 (Acute/Brilliant)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17334</ID>
+	<DefaultText>Target: Has Inspiration - Intellect T3 (Brilliant)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17335</ID>
+	<DefaultText>Target: Has Inspiration - Resolve T2 (Resolute/Courageous)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17336</ID>
+	<DefaultText>Target: Has Inspiration - Resolve T3 (Courageous)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17337</ID>
+	<DefaultText>Target: Has Affliction - Might T2 (Dazed/Stunned)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17338</ID>
+	<DefaultText>Target: Has Affliction - Might T3 (Stunned)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17339</ID>
+	<DefaultText>Target: Has Affliction - Constitution T2 (Weakened/Enfeebled)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17340</ID>
+	<DefaultText>Target: Has Affliction - Constitution T3 (Enfeebled)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17341</ID>
+	<DefaultText>Target: Has Affliction - Dexterity T2 (Immobilized/Paralyzed)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17342</ID>
+	<DefaultText>Target: Has Affliction - Dexterity T3 (Paralyzed)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17343</ID>
+	<DefaultText>Target: Has Affliction - Perception T2 (Disoriented/Blinded)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17344</ID>
+	<DefaultText>Target: Has Affliction - Perception T3 (Blinded)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17345</ID>
+	<DefaultText>Target: Has Affliction - Intellect T2 (Charmed/Dominated)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17346</ID>
+	<DefaultText>Target: Has Affliction - Intellect T3 (Dominated)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17347</ID>
+	<DefaultText>Target: Has Affliction - Resolve T2 (Frightened/Terrified)</DefaultText>
+	<FemaleText />
+</Entry><Entry>
+    <ID>17348</ID>
+	<DefaultText>Target: Has Affliction - Resolve T3 (Terrified)</DefaultText>
+	<FemaleText />
+</Entry></Entries>
+</StringTableFile>

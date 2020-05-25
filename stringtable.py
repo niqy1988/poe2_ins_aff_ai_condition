@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as ET
 
 from typing import Optional
@@ -9,7 +10,6 @@ class StringTable:
     next_index = None
     nametable_tree = None
     entry_node = None
-
 
     def __init__(self, name: str, start_index: int):
         # load template
@@ -26,8 +26,7 @@ class StringTable:
         tree_root.find('Name').text = self.name
         self.entry_node = tree_root.find('Entries')
 
-
-    def insert_entry(self, entry_text: str, entry_index: Optional[int] = None) -> int:
+    def insert(self, entry_text: str, entry_index: Optional[int] = None) -> int:
         if entry_index is None:
             entry_index = self.next_index
 
@@ -43,6 +42,6 @@ class StringTable:
 
         return entry_index
 
-
     def write(self, file_path: str):
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
         self.nametable_tree.write(file_path, encoding='utf-8', xml_declaration=True)
